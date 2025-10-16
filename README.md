@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:16.10.2025
+## Date:09/10/2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,6 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -87,14 +88,14 @@ body, html {
 .author {
     font-size: 1.2em;
     font-style: italic;
-    color: #aaa;
+    color: #7484ba;
 }
 
 </style>
 </head>
 <body>
     <div class="cover">
-        <img src="{% static 'cover/images/bg.jpg' %}" class="bg-img" alt="Background">
+        <img src="Screenshot 2025-10-09 213313.png" class="bg-img" alt="Background">
         <div class="content">
             <h1 class="title">The Art of Django</h1>
             <h3 class="subtitle">Mastering Web Development</h3>
@@ -104,15 +105,11 @@ body, html {
 </body>
 </html>
 
-
 ```
 
-
 ## OUTPUT:
-![alt text](Screenshot_16-10-2025_92432_127.0.0.1.jpeg)
 
-
-
+![alt text](<Screenshot (59).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
